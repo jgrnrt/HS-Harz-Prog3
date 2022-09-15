@@ -1,7 +1,7 @@
 # HS-Harz-Prog3
 REST - JSON based - Kinofilme - mariadb - java pojos
 
-Um den Server und den Client starten zu können, muss man die [Dokumentation](https://jgrnrt.github.io/HS-Harz-Prog3/Dokumentation.pdf) lesen!
+Um den Server und den Client starten zu können, muss man die <a href="https://jgrnrt.github.io/HS-Harz-Prog3/Dokumentation.pdf" target="_blank">Dokumentation</a> lesen!
 
 
 Aufgabenstellung 
