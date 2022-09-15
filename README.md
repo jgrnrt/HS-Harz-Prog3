@@ -1,6 +1,9 @@
 # HS-Harz-Prog3
 REST - JSON based - Kinofilme - mariadb - java pojos
 
+Um den Server und den Client starten zu können, muss man die [Dokumentation](https://jgrnrt.github.io/HS-Harz-Prog3/Dokumentation.pdf) lesen!
+
+
 Aufgabenstellung 
 
 Implementieren Sie einen REST-Web-Service für Abfragen zum Thema Kinofilme (Filmtitel,
