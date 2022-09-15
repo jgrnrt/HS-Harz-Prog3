@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<DialogPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17"
+            fx:controller="de.medieninformatik.client.EditDialogController">
+    <content>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <TextField fx:id="titleTextField" layoutX="30.0" layoutY="68.0" prefHeight="25.0" prefWidth="256.0"
+                       promptText="Title"/>
+            <TextField fx:id="directorTextField" layoutX="30.0" layoutY="109.0" prefHeight="25.0" prefWidth="257.0"
+                       promptText="Director"/>
+            <TextField fx:id="genreTextField" layoutX="30.0" layoutY="150.0" prefHeight="25.0" prefWidth="177.0"
+                       promptText="Genre"/>
+            <ChoiceBox fx:id="ratingsBox" layoutX="246.0" layoutY="150.0" prefHeight="25.0" prefWidth="40.0"/>
+            <Label layoutX="39.0" layoutY="14.0" prefHeight="33.0" prefWidth="256.0" text="Edit Movie Information">
+                <font>
+                    <Font name="System Bold" size="20.0"/>
+                </font>
+            </Label>
+            <Button layoutX="124.0" layoutY="192.0" mnemonicParsing="false" onAction="#setApply" prefHeight="25.0"
+                    prefWidth="70.0" text="Apply"/>
+            <Text fx:id="applyButtonErrorText" fill="#ae3535" layoutX="32.0" layoutY="246.0" strokeType="OUTSIDE"
+                  strokeWidth="0.0" wrappingWidth="254.0">
+                <font>
+                    <Font name="System Bold" size="15.0"/>
+                </font>
+            </Text>
+        </AnchorPane>
+    </content>
+</DialogPane>

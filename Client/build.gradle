@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin'
+}
+
+application {
+    mainClass = "${group}.${project.name.toLowerCase()}.Main"
+}
+
+dependencies {
+    implementation "jakarta.ws.rs:jakarta.ws.rs-api:${restVersion}"
+    implementation "org.glassfish.jersey.core:jersey-client:${jerseyVersion}"
+    implementation "org.glassfish.jersey.inject:jersey-hk2:${jerseyVersion}"
+    implementation "org.glassfish.jaxb:jaxb-runtime:${jaxbVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonDatabindVersion}"
+    implementation project(':Common')
+}
